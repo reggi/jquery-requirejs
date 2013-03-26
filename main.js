@@ -1,7 +1,7 @@
 require.config({
     paths: {
-        'jquery': '../components/jquery/jquery',
-        'jquery-cookie': '../components/jquery-cookie/jquery.cookie'
+        'jquery': './components/jquery/jquery',
+        'jquery-cookie': './components/jquery-cookie/jquery.cookie'
     },
     map: {
         'jquery-cookie': { 'jquery': 'nc-jquery' }
